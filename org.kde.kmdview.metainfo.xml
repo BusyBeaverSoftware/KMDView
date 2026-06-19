@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop-application">
+  <id>org.kde.kmdview</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+  <developer id="com.busybeaversoftware">
+    <name translate="no">Busy Beaver Software</name>
+  </developer>
+  <name>KMDView</name>
+  <summary>Preview Markdown documents</summary>
+  <description>
+    <p>
+      KMDView is a lightweight KDE application for previewing Markdown files.
+      Open documents from the file manager, drag and drop files into the window,
+      or pass paths on the command line.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Native Qt markdown rendering</li>
+      <li>Relative image and link support</li>
+      <li>Drag-and-drop and command-line file opening</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">org.kde.kmdview.desktop</launchable>
+  <provides>
+    <binary>kmdview</binary>
+    <mediatype>text/markdown</mediatype>
+    <mediatype>text/x-markdown</mediatype>
+  </provides>
+  <url type="homepage">https://github.com/BusyBeaverSoftware/KMDView</url>
+  <url type="bugtracker">https://github.com/BusyBeaverSoftware/KMDView/issues</url>
+  <url type="vcs-browser">https://github.com/BusyBeaverSoftware/KMDView</url>
+  <project_group>KDE</project_group>
+  <releases>
+    <release version="0.1.0" date="2026-06-19"/>
+  </releases>
+</component>

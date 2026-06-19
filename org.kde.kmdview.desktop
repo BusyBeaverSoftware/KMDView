@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=KMDView
+GenericName=Markdown Viewer
+Comment=Preview Markdown documents
+Exec=kmdview %F
+Icon=org.kde.kmdview
+Terminal=false
+Categories=Qt;KDE;Office;Viewer;TextTools;
+MimeType=text/markdown;text/x-markdown;
+StartupWMClass=kmdview
+SingleMainWindow=true
